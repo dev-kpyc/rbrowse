@@ -1,0 +1,25 @@
+RBROWSE - a command line web browser for reddit.com
+
+Instructions:
+	[0-30] - open the numbered topic on the front page
+	next - view the next 10 links
+	back - view the previous 10 links, or go back to the front page
+	exit - exit the script
+
+planned improvements
+	- view comments
+	- browse specific subreddits other than the front page
+
+ Copyright (C) 2012 dev.kpyc
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+email: dev.kpyc@gmail.com
