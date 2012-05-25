@@ -4,7 +4,7 @@ Instructions:
 	# - open the numbered topic on the front page
 	next - view the next 10 links
 	back - view the previous 10 links
-	exit - exit the script
+	exit/quit - exit the script
 	front - return to the front page
 	r/[subreddit] - begin browsing a subreddit
 	help - view the above instructions

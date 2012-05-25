@@ -23,7 +23,7 @@ def show_help():
    print('# - open the numbered topic on the front page')
    print('next - view the next 10 links')
    print('back - view the previous 10 links')
-   print('exit - exit the script')
+   print('exit/quit - exit the script')
    print('front - return to the front page')
    print('r/[subreddit] - begin browsing a subreddit')
    print('help - view the above instructions') 
@@ -44,7 +44,7 @@ hi=11
 
 command = ''
 
-while (command != 'exit'):
+while (command != 'exit' and command != 'quit'):
 
    if (command == 'help'):
       show_help()
