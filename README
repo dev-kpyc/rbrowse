@@ -6,7 +6,8 @@ Instructions:
 	back - view the previous 10 links
 	exit - exit the script
 	front - return to the front page
-	r/[subreddit] - begin browsing a subreddit	
+	r/[subreddit] - begin browsing a subreddit
+	help - view the above instructions
 
 Major Update 1:
 	Ability to browse subreddits and see the first 3 comments of a topic.

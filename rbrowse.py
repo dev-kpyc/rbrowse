@@ -19,6 +19,15 @@ def load_page(page):
    else:
       return page
 
+def show_help():
+   print('# - open the numbered topic on the front page')
+   print('next - view the next 10 links')
+   print('back - view the previous 10 links')
+   print('exit - exit the script')
+   print('front - return to the front page')
+   print('r/[subreddit] - begin browsing a subreddit')
+   print('help - view the above instructions') 
+
 import sys
 import re
 import urllib.request
@@ -36,6 +45,10 @@ hi=11
 command = ''
 
 while (command != 'exit'):
+
+   if (command == 'help'):
+      show_help()
+      command = input()
 
    if (command == 'next'):
       if lo <= 11: lo = lo + 10
