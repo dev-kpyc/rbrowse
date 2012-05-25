@@ -81,8 +81,8 @@ while (command != 'exit'):
          print(topic_url)
          print('Posted on ' + topic_date)
          print('')
-         for i in range(1,4):
-            print(comments[i])
+         for i in range(1,min(4, len(comments))):
+            print('{} {}'.format(i,comments[i]))
       
       while (command != 'back'):
          command = input()
