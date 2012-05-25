@@ -1,14 +1,15 @@
 RBROWSE - a command line web browser for reddit.com
 
 Instructions:
-	[0-30] - open the numbered topic on the front page
+	# - open the numbered topic on the front page
 	next - view the next 10 links
-	back - view the previous 10 links, or go back to the front page
+	back - view the previous 10 links
 	exit - exit the script
+	front - return to the front page
+	r/[subreddit] - begin browsing a subreddit	
 
-planned improvements
-	- view comments
-	- browse specific subreddits other than the front page
+Major Update 1:
+	Ability to browse subreddits and see the first 3 comments of a topic.
 
  Copyright (C) 2012 dev.kpyc
 
